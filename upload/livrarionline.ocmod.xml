@@ -342,7 +342,7 @@
         <input class="form-control" type="submit" id="cancel-awb" style="width: auto;" value="Cancel AWB"/>
       </form>
 
-      <a id="print-awb" href="http://api.livrarionline.ro/Lobackend_print/PrintAwb.aspx?f_login=<?php echo $livrarionline_loginid; ?>&awb=<?php echo $lo_raspuns['awb']; ?>" target="_blank">Click pentru print AWB</a>
+      <a id="print-awb" href="https://api.livrarionline.ro/Lobackend_print/PrintAwb.aspx?f_login=<?php echo $livrarionline_loginid; ?>&awb=<?php echo $lo_raspuns['awb']; ?>" target="_blank">Click pentru print AWB</a>
       <?php } ?>
     </div>
     <div id="rezultat-awb"></div>
